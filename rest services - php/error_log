@@ -1,0 +1,2 @@
+[16-Oct-2014 05:03:05] PHP Fatal error:  Call to undefined method DB_Functions::storeUser() in /home3/kemvadu/public_html/kemhrcvadu.org/HHRWB/insertuser.php on line 20
+[16-Oct-2014 06:12:00] PHP Fatal error:  Call to undefined method DB_Functions::storeIndividualMaster() in /home3/kemvadu/public_html/kemhrcvadu.org/HHRWB/insertIndividual.php on line 22
