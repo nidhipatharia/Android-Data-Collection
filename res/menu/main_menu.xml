@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">  
+    <item
+      android:id="@+id/menulogout"
+      android:icon="@drawable/logout"
+      android:title="@string/logout"
+      android:showAsAction="always"
+      android:onClick="onLogoutClicked"></item>
+    
+    <item
+      android:id="@+id/menuUpload"
+      android:icon="@drawable/upload"
+      android:title="@string/upload"
+      android:onClick="onUploadClicked"></item>
+</menu>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="qualification_doctor">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[DB001: MBBS - Bachelor of Medicine; Bachelor of Surgery \n এম বি বি এস - ব্যাচেলর অফ মেডিসিন; ব্যাচেলর অফ সার্জারী]]></item>
+        <item><![CDATA[DB002: BAMS - Bachelor of Ayurvedic Medicine & Surgery \n বি এ এম  এস - ব্যাচেলর অফ আয়ুর্বেদিক  মেডিসিন এন্ড সার্জারী]]></item>
+        <item><![CDATA[DB003: BAM - Bachelor of Ayurvedic Medicine \n বি এ এম - ব্যাচেলর অফ আয়ুর্বেদিক মেডিসিন]]></item>
+        <item><![CDATA[DB004: DAyM - Diploma in Ayurvedic Medicine \n ডি এ ওয়াই এম - ডিপ্লোমা ইন আয়ুর্বেদিক মেডিসিন]]></item>
+        <item><![CDATA[DB005: BHMS - Bachelor of Homeopathic Medicine & Surgery \n বি এইচ এম  এস - ব্যাচেলর অফ হোমিওপ্যাথিক মেডিসিন ত্ত সার্জারী]]></item>
+        <item><![CDATA[DB006: BMS - Bachelor of Medicine & Surgery (Homoeopathy) \n বি এম এস - ব্যাচেলর  অফ  মেডিসিন  & সার্জারি (হোমীয়প্যাথি)]]></item>
+        <item><![CDATA[DB007: GHMS - Graduate in Homoeopathic Medicine & Surgery \n জি এইচ এম এস - গ্রাজুয়েট ইন হোমিওপ্যাথিক  মেডিসিন এন্ড সার্জারি]]></item>
+        <item><![CDATA[DB008: DHMS - Diploma in Homoeopathic Medicine & Surgery \n ডি এইচ এম এস - ডিপ্লোমা ইন হোমিওপ্যাথিক  মেডিসিন এন্ড সার্জারি]]></item>
+        <item><![CDATA[DB009: BSMS - Bachelor of Siddha Medicine and Surgery \n  বি ]]></item>
+        <item><![CDATA[DB010: BSAM - Bachelor of Shudda Systematic Ayurvedic Medium \n বি এস এ এম - ব্যাচেলর অফ শুদ্দা সিস্টেম্যাটিক আয়ুর্ভেদিক মিডিয়াম]]></item>
+        <item><![CDATA[DB011: BNYS - Bachelor of Naturopathy & Yogic Sciences \n বি এন ওয়াই এস - ব্যাচেলর অফ নেচারোপ্যাথী ত্ত যোগিক সায়েন্সেস]]></item>
+        <item><![CDATA[DB012: BUMS - Bachelor of Unani Medicine and Surgery \n বি ইউ এম এস - ব্যাচেলর অফ ইউনানী মেডিসিন ত্ত সার্জারী]]></item>
+        <item><![CDATA[DB013: BDS - Bachelor of Dental Surgery \n বি ডি এস - ব্যাচেলর অফ ডেন্টাল সার্জারী]]></item>
+        <item><![CDATA[D8888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+    
+    <string-array name="additional_qualification_doctor">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[DD001: DBMS - Diploma in Basic Medical Sciences \n ডি বি এম এস- ডিপ্লোমা ইন বেসিক মেডিকেল সাইন্সেস]]></item>
+        <item><![CDATA[DD002: DCD - Diploma in Chest Diseases \n ডি সি ডি - ডিপ্লোমা ইন চেস্ট ডিজিসেস]]></item>
+        <item><![CDATA[DD003: DCH - Diploma in Child Health \n ডি সি এইচ - ডিপ্লোমা ইন চাইল্ড হেলথ]]></item>
+        <item><![CDATA[DD004: DCP - Diploma in Clinical Pathology \n ডি সি পি - ডিপ্লোমা ইন ক্লিনিকাল প্যাথলজি]]></item>
+        <item><![CDATA[DD005: DCPM - Diploma in Clinical Pathology & Microbiology \n ডি সি পি এম - ডিপ্লোমা ইন ক্লিনিকাল প্যাথলজি এন্ড মাইক্রোবায়োলজি]]></item>
+        <item><![CDATA[DD006: DD - Diploma in Dermatology \n ডি ডি - ডিপ্লোমা ইন ডের্মাটলজি]]></item>
+        <item><![CDATA[DD007: DD & STD - Diploma in Dermatology & Sexually Transmitted Diseases \n ডি ডি এন্ড এস টি ডি - ডিপ্লোমা ইন ডের্মাটলজি এন্ড সেক্ষুঅল্লি ত্রান্স্মিত্তেড ডিজিসেস]]></item>
+        <item><![CDATA[DD008: DDV - Diploma in Dermatology and Venereology \n ডি ডি ভি - ডিপ্লোমা ইন ডের্মাটলজি এন্ড ভেনেরীয়লোজি]]></item>
+        <item><![CDATA[DD009: DDVD - Diploma in Dermatology and Venereal Diseases \n ডি ডি ভি ডি  - ডিপ্লোমা ইন ডের্মাটলজি এন্ড ভেনেরিয়াল ডিজিসেস]]></item>
+        <item><![CDATA[DD010: DDVD - Diploma in Dermatology and Venereal Diseases \n ডি ডি ভি ডি  - ডিপ্লোমা ইন ডের্মাটলজি এন্ড ভেনেরিয়াল ডিজিসেস]]></item>
+        <item><![CDATA[DD011: DFP - Diploma in Family Planning \n ডি এফ পি - ডিপ্লোমা ইন ফ্যামিলি প্ল্যানিং]]></item>
+        <item><![CDATA[DD012: DGO - Diploma in Gynaecology and Obstetrics \n ডি জি ও - ডিপ্লোমা ইন গাইনকোলজি এন্ড  অবস্টেট্রিকস]]></item>
+        <item><![CDATA[DD013: DO - Diploma in Ophthalmology \n ডি ও - ডিপ্লোমা ইন অপথ্যালমোলজি]]></item>
+        <item><![CDATA[DD014: DOMS - Diploma in Ophthalmic Medicine and Surgery \n ডি ও এম এস - ডিপ্লোমা ইন অপথ্যালমিক মেডিসিন এন্ড সার্জারি]]></item>
+        <item><![CDATA[DD015: DOrth \n Ortho - Diploma in Orthopaedics \n ডি অর্থ \n অর্থ - ডিপ্লোমা ইন অর্থপেডিক্স]]></item>
+        <item><![CDATA[DD016: DOS - Diploma in Orthopaedic Surgery \n ডি ও এস - ডিপ্লোমা ইন অর্থপেডিক সার্জারি]]></item>
+        <item><![CDATA[DD017: DPaed - Diploma in Paediatrics \n ডি পেদ - ডিপ্লোমা ইন পেডিয়াট্রিক্স]]></item>
+        <item><![CDATA[DD018: DPM - Diploma in Psychological Medicine/Diploma in Psychiatric Medicine \n ডি পি এম - ডিপ্লোমা ইন সাইকোলজিকাল মেডিসিন/ডিপ্লোমা ইন সাইকিয়াট্রিক মেডিসিন]]></item>
+        <item><![CDATA[DD019: DTCD - Diploma in Tuberculosis and Chest Diseases \n ডি টি সি ডি- ডিপ্লোমা ইন টিউবাকলসিস এন্ড চেস্ট ডিজিসেস]]></item>
+        <item><![CDATA[DD020: DV - Diploma in Venereology \n ডি ভি - ডিপ্লোমা ইন ভেনেরীয়লোজি]]></item>
+        <item><![CDATA[DD021: DVD - Diploma in Venereology and Dermatology \n ডি ভি ডি - ডিপ্লোমা ইন ভেনেরীয়লজি এন্ড ডের্মাটলজি]]></item>
+        <item><![CDATA[DD022: DTD - Diploma in Tuberculosis Diseases \n ডি টি ডি - ডিপ্লোমা ইন টিউবাকলসিস ডিজিসেস]]></item>
+        <item><![CDATA[DD023: DHA - Diploma in Hospital Administration \n ডি এইচ এ - ডিপ্লোমা ইন হাসপাতাল অ্যাডমিনিস্ট্রেশন]]></item>
+        <item><![CDATA[DD024: DHE - Diploma in Health Education \n ডি এইচ ই - ডিপ্লোমা ইন হেলথ এডুকেশন]]></item>
+        <item><![CDATA[DD025: DHS - Diploma in Health Statistics \n ডি এইচ এস - ডিপ্লোমা ইন হেলথ স্ট্যাটিসটিক্স]]></item>
+        <item><![CDATA[DD026: DIH - Diploma in Industrial Health \n ডি ই এইচ - ডিপ্লোমা ইন ইন্ডাস্ট্রিয়াল হেলথ]]></item>
+        <item><![CDATA[DD027: DIO - Diploma in Otorhinolaryngology \n ডি ই ও - ডিপ্লোমা ইন অতর্হিনলার্য়্ন্গলজি]]></item>
+        <item><![CDATA[DD028: DM & SP - Diploma in Medical and Social Psychology \n ডি এম এন্ড এস পি - ডিপ্লোমা ইন মেডিকেল এন্ড সোশ্যাল সাইকোলজি]]></item>
+        <item><![CDATA[DD029: DPH - Diploma in Public Health \n ডি পি এইচ - ডিপ্লোমা ইন পাবলিক হেলথ]]></item>
+        <item><![CDATA[DD030: DPSW - Diploma in Psychiatric Social Work \n ডি পি এইচ - ডিপ্লোমা ইন সাইকিয়াট্রিক সোশ্যাল ওয়ার্ক]]></item>
+        <item><![CDATA[DD031: DTM & H - Diploma in Tropical Medicine & Hygiene \n ডি টি এম এন্ড এইচ - ডিপ্লোমা ইন ট্রপিকাল মেডিসিন এন্ড হাইজিন]]></item>
+        <item><![CDATA[DD032: LPH - Licentiate in Public Health \n এল পি এইচ - লিসেন্টিয়াত ইন  পাবলিক  হেলথ]]></item>
+        <item><![CDATA[DD033: DLTM & H  - Diploma in Licentiate Tropical Medicine & Hygiene \n ডি এল টি এম এন্ড এইচ - ডিপ্লোমা ইন লিসেন্টিয়াত ট্রপিকাল মেডিসিন এন্ড হাইজিন]]></item>
+        <item><![CDATA[DM001: MD - Master of Medicine \n এম ডি – মাস্টার অফ মেডিসিন]]></item>
+        <item><![CDATA[DM002: MS - Master of Surgery \n এম এস – মাস্টার অফ সার্জারী]]></item>
+        <item><![CDATA[DM003: MDS - Master of Dental Surgery \n এম ডি – মাস্টার অফ মেডিসিন]]></item>
+        <item><![CDATA[DM004: DNB - Diplomate of National Board  \n ডি এন বি – ডিপ্লোমেট অফ ন্যাশনাল বোর্ড]]></item>
+        <item><![CDATA[DM005: FNB - Fellow of National Board \n এফ এন বি – ফেলো অফ ন্যাশনাল বোর্ড]]></item>
+        <item><![CDATA[DM006: MSc(Medical) - Master of Science (MSc) in Medical Subjects \n এম এসসি(মেডিকেল) - মাস্টার অফ সায়েন্স ইন মেডিকেল সাবজেক্ট]]></item>
+        <item><![CDATA[DM007: MRCP - Membership of the Royal Colleges of Physicians \n এম আর সি পি – মেম্বারশিপ অফ দী রয়েল কলেজ অফ ফিজিসিয়ান্স]]></item>
+        <item><![CDATA[DM008: PhD - Doctor of Philosophy \n পিএইচডি - ডাক্তার অফ ফিলোসফি]]></item>
+        <item><![CDATA[DM009: MHA - Master of Hospital Administration \n এম এইচ এ - মাস্টার  অফ  হাসপাতাল  অ্যাডমিনিস্ট্রেশন]]></item>
+        <item><![CDATA[DM010: MVPH - Master of Veterinary & Public Health \n এম ভি  পি  এইচ - মাস্টার  অফ  ভেটেরিনারি  এন্ড  পাবলিক  হেলথ]]></item>
+        <item><![CDATA[DM011: MASc - Master of Ayurvedic Science \n এম এ এসসি - মাস্টার অফ আয়ুর্বেদিক সাইন্স]]></item>
+        <item><![CDATA[D8888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+   
+    <string-array name="qualification_nurse">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[N0001: ANM - Auxiliary Nursing and Midwifery \n এ এন এম - অক্জিলিয়ারী নার্সিং  এন্ড  মিডওয়াইফারি]]></item>
+        <item><![CDATA[N0002: GNM - General Nursing and Midwifery \n জি এন এম - জেনারেল নার্সিং  এন্ড  মিডওয়াইফারি]]></item>
+        <item><![CDATA[N0003: BSc – Nursing \n বি এসসি - নার্সিং]]></item>
+        <item><![CDATA[N0004: MSc – Nursing \n এম এসসি - নার্সিং]]></item>
+        <item><![CDATA[N8888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+    
+    <string-array name="qualification_technician">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[TQ001: High School \n হাই স্কুল]]></item>
+        <item><![CDATA[TQ002: Higher Secondary \n হাইয়ার সেকেন্ডারি]]></item>
+        <item><![CDATA[TQ003: Graduate \n গ্রাজুয়েট]]></item>
+        <item><![CDATA[TQ004: Post Graduate \n পোস্ট গ্রাজুয়েট]]></item>
+        <item><![CDATA[TQ005: PhD - Doctor of Philosophy \n পিএইচডি - ডাক্তার অফ ফিলোসফি]]></item>
+        <item><![CDATA[TQ888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+   
+    <string-array name="additional_qualification_technician">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[TC001: Diploma in Medical Laboratory Technician \n ডিপ্লোমা ইন মেডিকেল ল্যাবরেটরি টেকনিশিয়ান]]></item>
+        <item><![CDATA[TC002: Certificate Programme in Medical Lab Technician \n সার্টিফিকেট প্রোগ্র্যাম ইন মেডিকেল লাব্ টেকনিশিয়ান]]></item>
+        <item><![CDATA[TC003: X-Ray Technician Course \n এক্স-রে টেকনিশিয়ান কোর্স]]></item>
+        <item><![CDATA[TC004: X-Ray and Lab Technician \n এক্স-রে এন্ড লাব্ টেকনিশিয়ান]]></item>
+        <item><![CDATA[TC005: Certificate Program in Lab Technician (CMLT) \n সার্টিফিকেট প্রোগ্রাম ইন লাব্ টেকনিশিয়ান]]></item>
+        <item><![CDATA[TC006: Lab Technician Training \n লাব্ টেকনিশিয়ান ট্রেনিং]]></item>
+        <item><![CDATA[TC007: Emergency Medical Technician Course (EMTC) \n ইমার্জেন্সি মেডিকেল টেকনিশিয়ান কোর্স]]></item>
+        <item><![CDATA[TC008: Diploma Course in Lab Technology and X-Ray Technician \n ডিপ্লোমা কোর্স ইন লাব্ টেকনোলজি  এন্ড এক্স-রে  টেকনিশিয়ান]]></item>
+        <item><![CDATA[TC009: Optician Assistant \n অপটিশিয়ান অ্যাসিস্ট্যান্ট]]></item>
+        <item><![CDATA[TC888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+   
+    <string-array name="qualification_pharmacist">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[PH001: Higher Secondary \n উচ্চ মাধ্যমিক]]></item>
+        <item><![CDATA[PH002: Graduate (Any Stream) \n গ্রাজুয়েট (যেকোন বিষয়)]]></item>
+        <item><![CDATA[PH003: Postgraduate (Any Stream) \n পোস্ট গ্রাজুয়েট (যেকোন বিষয়)]]></item>
+        <item><![CDATA[PH004: DPharm - Diploma in Pharmacy \n ডি ফার্ম - ডিপ্লোমা ইন ফার্মেসী]]></item>
+        <item><![CDATA[PH005: BPharm - Bachelor of Pharmacy \n বি ফার্ম  - ব্যাচেলর অফ ফার্মেসী]]></item>
+        <item><![CDATA[PH006: MPharm - Master of Pharmacy \n এম ফার্ম - মাস্টার অফ ফার্মেসী]]></item>
+        <item><![CDATA[PH007: MS(Pharm) - Master of Science in Pharmacy \n এম এস (ফার্ম) - মাস্টার অফ সাইন্স ইন ফার্মেসী]]></item>
+        <item><![CDATA[PH008: MTech(Pharm) - Master of Technology in Pharmacy \n এম টেক(ফার্ম) - মাস্টার অফ টেকনোলজি ইন ফার্মেসী]]></item>
+        <item><![CDATA[PH009: PharmD - Doctor of Pharmacy \n ফার্ম ডি - ডাক্তার অফ ফার্মেসী]]></item>
+        <item><![CDATA[PH010: PhD - Doctor of Philosophy in Pharmacy \n পিএইচডি - ডাক্তার অফ ফিলোসফি ইন ফার্মেসী]]></item>
+        <item><![CDATA[PH888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+    
+    <string-array name="qualification_physiotherapist">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[PY001: BPT - Bachelor of Physiotherapy \n বি পি টি - ব্যাচেলর অফ ফিজিওথেরাপি]]></item>
+        <item><![CDATA[PY002: MPT - Master of Physiotherapy \n এম পি টি - মাস্টার অফ ফিজিওথেরাপি]]></item>
+        <item><![CDATA[PY003: Diploma in Physiotherapy \n ডিপ্লোমা ইন ফিজিওথেরাপি]]></item>
+        <item><![CDATA[PY004: Certificate in Physiotherapy \n সার্টিফিকেট ইন ফিজিওথেরাপি]]></item>
+        <item><![CDATA[PY888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+    
+    <string-array name="qualification_ha">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[HA001: < High School \n < উচ্চ বিদ্যালয়]]></item>
+        <item><![CDATA[HA002: High School \n উচ্চ বিদ্যালয়]]></item>
+        <item><![CDATA[HA003: Higher Secondary \n উচ্চ মাধ্যমিক]]></item>
+        <item><![CDATA[HA004: Graduate \n গ্রাজুয়েট]]></item>
+        <item><![CDATA[HA005: Post Graduate \n পোস্ট গ্রাজুয়েট]]></item>
+        <item><![CDATA[HA006: PhD \n পিএইচডি]]></item>
+        <item><![CDATA[HA888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+    
+    <string-array name="qualification_asha">
+        <item>------ Select from the list ------</item>
+        <item><![CDATA[A0001: < High School \n < উচ্চ বিদ্যালয়]]></item>
+        <item><![CDATA[A0002: High School \n উচ্চ বিদ্যালয়]]></item>
+        <item><![CDATA[A0003: Higher Secondary \n উচ্চ মাধ্যমিক]]></item>
+        <item><![CDATA[A0004: Graduate \n গ্রাজুয়েট]]></item>
+        <item><![CDATA[A0005: Post Graduate \n পোস্ট গ্রাজুয়েট]]></item>
+        <item><![CDATA[A0006: PhD \n পি এইচ ডি]]></item>
+        <item><![CDATA[A8888: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></item>
+    </string-array>
+   
+    <string-array name="qualificaition_ifhcp">
+        <item>------ Select from the list ------</item>
+        <item>@string/ihc01</item>
+        <item>@string/ihc02</item>
+        <item>@string/ihc03</item>
+        <item>@string/ihc04</item>
+        <item>@string/ihc05</item>
+        <item>@string/ihc06</item>
+        <item>@string/ihc88</item>
+    </string-array>
+
+</resources>

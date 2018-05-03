@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">HHRWB 1.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="home"><![CDATA[Home Page \n হোম পেজ]]></string>
+    <string name="logout"><![CDATA[Logout \n লগ আউট]]></string>
+    <string name="upload"><![CDATA[Upload Data \n তথ্য আপলোড]]></string>
+    <string name="heading"><![CDATA[Heath Care Human Resource Database Development in West Bengal \n পশ্চিমবঙ্গের স্বাস্থ্য সেবা মানব সম্পদ উপাদানসংগ্রহ]]></string>
+    
+    <string name="username"><![CDATA[User Name ব্যবহারকারীর নাম]]></string>
+    <string name="password"><![CDATA[Password পাসওয়ার্ড]]></string>
+    
+    <string name="login"><![CDATA[Login \n লগইন]]></string>
+    <string name="next"><![CDATA[Next \n পরবর্তী]]></string>
+    <string name="cancel"><![CDATA[Cancel \n বাতিল]]></string>
+    <string name="insert"><![CDATA[Insert To Database \n ডাটাবেস ঢোকান]]></string>
+    
+    <string name="fill"><![CDATA[Fill Data \n তথ্য পূরণ]]></string>
+    <string name="view"><![CDATA[View Data \n তথ্য দেখুন]]></string>
+    <string name="modify"><![CDATA[Modify Data \n তথ্য পরিবর্তন করুন]]></string>
+    
+    <string name="individual_details"><![CDATA[Individual Details \n ব্যক্তিগত বিবরণ]]></string>
+    <string name="name"><![CDATA[Name \n নাম]]></string>
+    <string name="first_name"><![CDATA[First Name \n নামের প্রথমাংশ]]></string>
+    <string name="middle_name"><![CDATA[Middle Name \n নামের প্রথমাংশ]]></string>
+    <string name="last_name"><![CDATA[Last Name \n শেষ নাম]]></string>
+    <string name="father_name"><![CDATA[Father\'s Name \n পিতার নাম]]></string>
+    <string name="father_first_name"><![CDATA[Father\'s First Name \n পিতার প্রথমত নাম]]></string>
+    <string name="father_middle_name"><![CDATA[Father\'s Middle Name \n পিতার মিডিল নাম]]></string>
+    <string name="father_last_name"><![CDATA[Father\'s Last Name \n পিতার শেষ নাম]]></string>
+    <string name="mother_name"><![CDATA[Mother\'s Name \n মাতার নাম]]></string>
+    <string name="mother_first_name"><![CDATA[Mother\'s First Name \n মাতার নাম]]></string>
+    <string name="mother_middle_name"><![CDATA[Mother\'s Middle Name \n মা এর মিডিল নাম]]></string>
+    <string name="mother_last_name"><![CDATA[Mother\'s Last Name \n মা এর সর্বশেষ নাম]]></string>
+    <string name="date_of_birth"><![CDATA[Date of Birth \n জন্মের তারিখ]]></string>
+    <string name="open_calendar"><![CDATA[Open Calendar \n ওপেন ক্যালেন্ডার]]></string>
+    <string name="gender"><![CDATA[Gender \n লিঙ্গ]]></string>
+    <string name="male"><![CDATA[01: Male \n পুরুষ]]></string>
+    <string name="female"><![CDATA[02: Female \n মহিলা]]></string>
+    <string name="others"><![CDATA[03: Others \n অন্যান্য]]></string>
+    <string name="marital_status"><![CDATA[Marital Status \n বৈবাহিক স্থিতি]]></string>
+    <string name="single"><![CDATA[01: Single \n অবিবাহিত]]></string>
+    <string name="married"><![CDATA[02: Married \n বিবাহিত]]></string>
+    <string name="divorcee"><![CDATA[03: Divorcee \n বিবাহবিচ্ছেদ]]></string>
+    
+    <string name="location"><![CDATA[Location \n পাঁচ]]></string>
+    <string name="area_type"><![CDATA[Area Type \n এলাকা প্রকার]]></string>
+    <string name="district"><![CDATA[District \n জেলা]]></string>
+    <string name="panchayat"><![CDATA[Panchayat \n পঞ্চায়েত]]></string>
+    <string name="block"><![CDATA[Block \n ব্লক]]></string>
+    <string name="gram_panchayat"><![CDATA[Gram Panchayat \n গ্রাম পঞ্চায়েত:]]></string>
+    <string name="municipality"><![CDATA[Municipality \n পৌরসভা]]></string>
+    <string name="municipal_corporation"><![CDATA[Municipal Corporation \n পৌরসংস্থা]]></string>
+    <string name="permanent_address"><![CDATA[Permanent Address \n স্থায়ী ঠিকানা]]></string>
+    <string name="current_address"><![CDATA[Current Address \n বর্তমান ঠিকানা]]></string>
+    <string name="current_address_blank_msg"><![CDATA[Leave it blank if same as permanent address \n যদি স্থায়ী ঠিকানা একই, তবে  ফাঁকা ছেড়ে দিন]]></string>
+    
+    <string name="mobile"><![CDATA[Contact Number (Mobile) \n যোগাযোগের নম্বর (মোবাইল)]]></string>
+    <string name="phone"><![CDATA[Alternate Number \n বিকল্প যোগাযোগের নম্বর]]></string>
+    <string name="email"><![CDATA[Email ID \n ইমেইল আইডি]]></string>
+    <string name="identication_number"><![CDATA[Identification Number (Any Two) \n সনাক্তকারী নম্বর (যেকোন দুটি)]]></string>
+    <string name="pan_card"><![CDATA[PAN Card \n প্যান কার্ড]]></string>
+    <string name="voter_id"><![CDATA[Voter ID \n ভোটার আইডি]]></string>
+    <string name="aadhaar"><![CDATA[Aadhaar \n আধার]]></string>
+    <string name="type_of_service_provider"><![CDATA[Type of Service Provider \n পরিষেবা প্রদানকারী প্রকার]]></string>
+    <string name="fhcp_gov"><![CDATA[Formal Health Care Provider in Government Sector \n সরকারি আনুষ্ঠানিক স্বাস্থ্য সেবা কর্মী]]></string>
+    <string name="fhcp_non_gov"><![CDATA[Formal Health Care Provider in Non-Government Sector \n বেসরকারী আনুষ্ঠানিক স্বাস্থ্য সেবা কর্মী]]></string>
+    <string name="ifhcp"><![CDATA[Informal Health Care Provider \n অনানুষ্ঠানিক স্বাস্থ্য সেবা কর্মী]]></string>
+    <string name="click_photo"><![CDATA[Click Photo \n ছবি ক্লিক করুন]]></string>
+    
+    <string name="emp_type_fhp"><![CDATA[Employment Type of Formal Health Care Provider \n আনুষ্ঠানিক স্বাস্থ্য সেবা কর্মীদের কর্মসংস্থান প্রকার]]></string>
+    <string name="emp_type"><![CDATA[Employment Type \n কর্মসংস্থান প্রকার]]></string>
+    <string name="heading_fhp_gov"><![CDATA[Formal Health Care Provider in Government Sector \n সরকারি আনুষ্ঠানিক স্বাস্থ্য সেবা কর্মী]]></string>
+    <string name="emp_type_fhp_gov"><![CDATA[If Employment Type is Government \n কর্মসংস্থান প্রকার যদি  সরকারি হয়]]></string>
+    <string name="central_gov"><![CDATA[01: Central Government \n  কেন্দ্রীয় সরকার]]></string>
+    <string name="state_gov"><![CDATA[02: State Government \n রাজ্য সরকার]]></string>
+    <string name="public_sector"><![CDATA[03: Public Sector \n  পাবলিক সার্ভিস]]></string>
+    <string name="employment"><![CDATA[Employment \n চাকরি]]></string>
+    <string name="permanent"><![CDATA[01: Permanent \n স্থায়ী]]></string>
+    <string name="contractual"><![CDATA[02: Contractual \n চুক্তিমূলক]]></string>
+    <string name="role"><![CDATA[Role \n ভূমিকা]]></string>
+    <string name="doctor"><![CDATA[01: Doctor \n ডাক্তার]]></string>
+    <string name="nurse"><![CDATA[02: Nurse / নার্স]]></string>
+    <string name="lab_technician"><![CDATA[03: Lab Technician /ল্যাব প্রকর্মী]]></string>
+    <string name="xray_technician"><![CDATA[04: X-Ray Technician / এক্সরে প্রকর্মী]]></string>
+    <string name="pharmacist"><![CDATA[05: Pharmacist / ফার্মাসিস্ট]]></string>
+    <string name="physiotherapist"><![CDATA[06: Physiotherapist / ফিজিওথেরাপিস্ট]]></string>
+    <string name="other_technical_services"><![CDATA[07: Others Technical Services / অন্যান্য প্রযুক্তিগত সেবা]]></string>
+    <string name="ha"><![CDATA[08: HA (M) / এইচ এ (এম)]]></string>
+    <string name="asha"><![CDATA[09: ASHA / এ এস এইচ এ   ]]></string>
+    <string name="practicing_since"><![CDATA[Practicing Since (Date) \n কবে  থেকে কর্মরত (তারিখ)]]></string>
+    <string name="practicing_location"><![CDATA[Practicing Location \n কর্ম স্থান]]></string>
+    <string name="urban"><![CDATA[01: Urban \n শহর]]></string>
+    <string name="semi_urban"><![CDATA[02: Semi Urban \n জেলার সদর]]></string>
+    <string name="rural"><![CDATA[03: Rural \n গ্রাম]]></string>
+    
+    <string name="type_of_service"><![CDATA[Type of Service \n পরিষেবার প্রকার]]></string>
+    <string name="curative"><![CDATA[01: Curative \n আরোগ্যক্ষম]]></string>
+    <string name="public_health"><![CDATA[02: Public Health \n জনস্বাস্থ্য সেবা]]></string>
+    <string name="administrative"><![CDATA[03: Administrative \n প্রশাসনিক]]></string>
+    <string name="educational"><![CDATA[04: Educational \n শিক্ষাগত]]></string>
+    
+    <string name="qualification"><![CDATA[Qualification \n শিক্ষা]]></string>
+    <string name="qualification_doctor"><![CDATA[Qualification শিক্ষা \n (Doctor) \n (ডাক্তার)]]></string>
+    <string name="qualification_nurse"><![CDATA[Qualification শিক্ষা \n (Nurse) \n (নার্স)]]></string>
+    <string name="qualification_lab_technician"><![CDATA[Qualification শিক্ষা \n (Lab Technician) \n (ল্যাব প্রকর্মী)]]></string>
+    <string name="qualification_xray_technician"><![CDATA[Qualification শিক্ষা \n (X-Ray Technician) \n (এক্সরে প্রকর্মী)]]></string>
+    <string name="qualification_other_technician"><![CDATA[Qualification শিক্ষা  \n (Others Technical Services) \n(অন্যান্য প্রযুক্তিগত সেবা)]]></string>
+    <string name="qualification_pharmacist"><![CDATA[Qualification শিক্ষা  \n (Pharmacist) \n (ফার্মাসিস্ট)]]></string>
+    <string name="qualification_physiotherapist"><![CDATA[Qualification শিক্ষা  \n (Physiotherapist) \n (ফিজিওথেরাপিস্ট)]]></string>
+    <string name="qualification_ha"><![CDATA[Qualification শিক্ষা \n (HA (M)) \n (এইচ এ (এম))]]></string>
+    <string name="qualification_asha"><![CDATA[Qualification শিক্ষা \n (ASHA) \n (এ এস এইচ এ)]]></string>
+    <string name="leave_blank"><![CDATA[Leave blank if option other is chosen above]]></string>
+    <string name="qualification_location"><![CDATA[Qualification Location \n শিক্ষা স্থান]]></string>
+    <string name="west_bengal"><![CDATA[01: West Bengal \n পশ্চিমবঙ্গ]]></string>
+    <string name="outside_west_bengal"><![CDATA[02: Outside West Bengal \n পশ্চিমবঙ্গের বাইরের]]></string>
+    <string name="additional_qualification"><![CDATA[Additional Qualification \n অতিরিক্ত যোগ্যতা]]></string>
+    <string name="registration_number"><![CDATA[Registration Number \n নিবন্ধন সংখ্যা]]></string>
+    <string name="registering_authority"><![CDATA[Registering Authority \n নিবন্ধীকরণ  কর্তৃত্ব]]></string>
+    <string name="ra01"><![CDATA[01: Medical Council of India \n মেডিকেল কাউন্সিল অফ ইন্ডিয়া]]></string>
+    <string name="ra02"><![CDATA[02: West Bengal Medical Council \n ওয়েস্ট বেঙ্গল মেডিকেল কাউন্সিল]]></string>
+    <string name="ra03"><![CDATA[03: Indian Board of Alternative Medicines \n ইন্ডিয়ান বোর্ড অফ অল্টারনেটিভ  মেডিসিন্স্]]></string>
+    <string name="ra04"><![CDATA[04: Indian Council of Alternative Medicines \n ইন্ডিয়ান কাউন্সিল অফ অল্টারনেটিভ মেডিসিন্স্ ]]></string>
+    <string name="ra05"><![CDATA[05: Council of Alternative Systems of Medicines \n কাউন্সিল অফ অল্টারনেটিভ সিস্টেমস অফ মেডিসিন্স্]]></string>
+    <string name="ra06"><![CDATA[06: Alternative Medical Council (Calcutta) \n অল্টারনেটিভ মেডিকেল কাউন্সিল (কলিকাতা)]]></string>
+    <string name="ra07"><![CDATA[07: Central Council of Homoeopathy \n সেন্ট্রাল কাউন্সিল অফ হোমীয়প্যাথি]]></string>
+    <string name="ra08"><![CDATA[08: Board of Ayurvedic and Unani Systems of Medicine \n বোর্ড অফ আয়ুর্বেদিক এন্ড উনানি সিস্টেমস অফ মেডিসিন]]></string>
+    <string name="ra09"><![CDATA[09: Paschim Banga Ayurved Parishad \n পশ্চিম বঙ্গ আয়ুর্ভেদ পরিষদ]]></string>
+    <string name="ra10"><![CDATA[10: CCIM - Delhi (Ayush Department) \n সি সি আর এম - দিল্লি (আয়ুষ  বিভাগ)]]></string>
+    <string name="ra11"><![CDATA[11: State Council of Unani Medicine \n রাজ্য ইউনানী মেডিসিন কাউন্সিল]]></string>
+    <string name="ra12"><![CDATA[12: Pharmacy Council of India \n ফার্মেসী কাউন্সিল অফ ইন্ডিয়া]]></string>
+    <string name="ra13"><![CDATA[13: West Bengal State Pharmacy Council \n ওয়েস্ট বেঙ্গল স্টেট ফার্মেসী কাউন্সিল ]]></string>
+    <string name="ra14"><![CDATA[14: West Bengal Nursing Council \n পশ্চিমবঙ্গের নার্সিং কাউন্সিল]]></string>
+    <string name="ra88"><![CDATA[88: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></string>
+    
+    <string name="heading_fhp_non_gov"><![CDATA[Formal Health Care Provider in Non-Government Sector \n বেসরকারী আনুষ্ঠানিক স্বাস্থ্য সেবা কর্মী]]></string>
+    <string name="emp_type_fhp_non_gov"><![CDATA[If Employment Type is Non-Government \n কর্মসংস্থান প্রকার যদি  বেসরকারী হয়]]></string>
+    <string name="private_services"><![CDATA[01: Private Services \n সরকারী চাকরি]]></string>
+    <string name="self_employed"><![CDATA[02: Self Employed \n নিজ রোজগার]]></string>
+    
+    <string name="heading_ifhp"><![CDATA[Informal Health Care Providers \n অনানুষ্ঠানিক স্বাস্থ্য সেবা কর্মী]]></string>
+    <string name="qualification_ifhp"><![CDATA[Qualification \n শিক্ষা]]></string>
+    <string name="ihc01"><![CDATA[IHC01: < High School \n < উচ্চ বিদ্যালয়]]></string>
+    <string name="ihc02"><![CDATA[IHC02: High School \n উচ্চ বিদ্যালয়]]></string>
+    <string name="ihc03"><![CDATA[IHC03: Higher Secondary \n উচ্চ মাধ্যমিক]]></string>
+    <string name="ihc04"><![CDATA[IHC04: Graduate \n গ্রাজুয়েট]]></string>
+    <string name="ihc05"><![CDATA[IHC05: Post Graduate \n পোস্ট গ্রাজুয়েট]]></string>
+    <string name="ihc06"><![CDATA[IHC06: PhD \n পি এইচ ডি]]></string>
+    <string name="ihc88"><![CDATA[IHC88: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></string>
+    <string name="mode_of_service"><![CDATA[Mode of Service \n পরিষেবার কার্যপদ্ধতি]]></string>
+    <string name="stationary"><![CDATA[01: Stationary \n স্থির]]></string>
+    <string name="mobile_mode"><![CDATA[02: Mobile \n ভ্রাম্যমাণ]]></string>
+    <string name="vehicle"><![CDATA[Vehicle \n বাহন]]></string>
+    <string name="v01"><![CDATA[01: Walking \n হেটে]]></string>
+    <string name="v02"><![CDATA[02: Bicycle \n বাই সাইকেল]]></string>
+    <string name="v03"><![CDATA[03: Motor Cycle \n মোটর সাইকেল]]></string>
+    <string name="v04"><![CDATA[04: Car \n গাড়ী]]></string>
+    <string name="v05"><![CDATA[05: Public Transport \n জনসাধারণ পরিবহন]]></string>
+    <string name="v88"><![CDATA[88: Other (Specify) \n অন্যান্য (উল্লেখ করুন)]]></string>
+    <string name="prescribing_method"><![CDATA[Prescribing Method \n প্রেসক্রাইবিং প্রক্রিয়া]]></string>
+    <string name="dispense_drugs"><![CDATA[01: Dispense Drugs \n ওষুধ দেত্তয়া হয়]]></string>
+    <string name="write_prescription"><![CDATA[02: Write Prescription \n প্রেসক্রিপশন লিখে]]></string>
+    <string name="note_fhcp_gov"><![CDATA[Note: Here Nurse includes GNM (DPHNO, BPHN, PHN), ANM (HA/F & 2nd ANM), Health Supervisors (F). HA/M & Health Supervisors Males are included together in HA(M).]]></string>
+    <string name="note_fhcp_non_gov"><![CDATA[Note: Here Nurse includes GNM (DPHNO, BPHN, PHN), ANM (HA/F & 2nd ANM), Health Supervisors (F).]]></string>
+    <string name="NA"><![CDATA[Not Applicable]]></string>
+    
+    <string name="first_name_hint">Nidhi</string>
+    <string name="middle_name_hint">Virender</string>
+    <string name="last_name_hint">Patharia</string>
+    <string name="father_first_name_hint">Virender</string>
+    <string name="father_middle_name_hint">Tirath Ram</string>
+    <string name="father_last_name_hint">Patharia</string>
+    <string name="mother_first_name_hint">Kiran</string>
+    <string name="mother_middle_name_hint">Virender</string>
+    <string name="mother_last_name_hint">Patharia</string>
+    <string name="mobile_hint">9787879909</string>
+    <string name="email_hint">patharianidhi@gmail.com</string>
+    <string name="pan_card_hint">AOYPP6765E</string>
+    <string name="voter_id_hint">A0989098</string>
+    <string name="aadhaar_hint">A87878980</string>
+    <string name="role_prompt">Role</string>
+    
+    <string name="first_name_blank_error"><![CDATA[First name cannot be left blank \n প্রথম নাম ফাঁকা রাখা যাবে না]]></string>
+    <string name="middle_last_name_blank_error"><![CDATA[Either middle name or last name is required \n মাঝের নাম অথবা শেষ নাম হয় প্রয়োজন বোধ করা হয়]]></string>
+    <string name="father_first_name_blank_error"><![CDATA[Father\'s First name cannot be left blank \n পিতার প্রথম নাম ফাঁকা রাখা যাবে না]]></string>
+    <string name="father_middle_last_name_blank_error"><![CDATA[Either middle name or last name of father is required \n মাঝের নাম বা পিতার নামের শেষ হয় প্রয়োজন বোধ করা হয়]]></string>
+    <string name="mother_first_name_blank_error"><![CDATA[Mother \'s First name cannot be left blank \n মাতার প্রথম নাম ফাঁকা রাখা যাবে না]]></string>
+	<string name="mother_middle_last_name_blank_error"><![CDATA[Either middle name or last name of mother is required \n মাঝের নাম বা মায়ের পদবি হয় প্রয়োজন বোধ করা হয়]]></string>
+	
+	<string name="invalid_district_for_block"><![CDATA[Invalid district selected for area type panchayat \n এলাকা টাইপ পঞ্চায়েত জন্য নির্বাচিত অকার্যকর জেলা]]></string>
+	<string name="invalid_district_for_municipality"><![CDATA[Invalid district selected for area type municipality \n এলাকা টাইপ পৌরসভার জন্য নির্বাচিত অকার্যকর জেলা]]></string>
+	<string name="invalid_district_for_municipal_corporation"><![CDATA[Invalid district selected for area type municipal corporation \n এলাকা টাইপ পৌর নিগম জন্য নির্বাচিত অকার্যকর জেলা]]></string>
+    <string name="permanent_address_blank_error"><![CDATA[Permanent Address cannot be left blank \n স্থায়ী ঠিকানা ফাঁকা রাখা যাবে না]]></string>
+	
+	<string name="mobile_number_blank_error"><![CDATA[Mobile number cannot be left blank \n মোবাইল নম্বর ফাঁকা রাখা যাবে না]]></string>
+	<string name="mobile_number_error"><![CDATA[Invalid Mobile Number \n অবৈধ মোবাইল নম্বর]]></string>
+    <string name="email_id_blank_error"><![CDATA[Email Id cannot be left blank \n এটি ইমেল আইডি খালি রাখা যাবে না]]></string>
+    <string name="email_id_error"><![CDATA[Invalid Email Id \n অবৈধ ইমেল আইডি]]></string>
+    <string name="identification_number_error"><![CDATA[Atleast two identification numbers are required \n অন্তত দু সনাক্তকরণ নম্বর প্রয়োজন হয়]]></string>
+    
+    <string name="role_error"><![CDATA[You must select a role from the list \n আপনি তালিকা থেকে একটি ভূমিকা নির্বাচন করতে হবে]]></string>
+    <string name="registration_number_blank_error"><![CDATA[Registration Number cannot be left blank \n নিবন্ধন সংখ্যা ফাঁকা রাখা যাবে না]]></string>
+    <string name="registering_authority_error"><![CDATA[Select Registering Authority from the list \n তালিকা থেকে নিবন্ধন কর্তৃপক্ষ নির্বাচন করুন]]></string>
+    <string name="registering_authority_other_blank_error"><![CDATA[Please type a value for Registering Authority as option other is chosen \n অন্যান্য বিকল্প নির্বাচিত হিসেবে নিবন্ধন কর্তৃপক্ষ জন্য একটি মান লিখুন]]></string>
+    <string name="qualification_error"><![CDATA[Please select qualification from the list \n তালিকা থেকে যোগ্যতা দয়া করে নির্বাচন করুন]]></string>
+    <string name="qualification_other_error"><![CDATA[Please type a value for Qualification as option other is chosen \n নির্বাচিত অন্য বিকল্প হিসাবে যোগ্যতা জন্য একটি মান লিখুন]]></string>
+    <string name="additional_qualification_error"><![CDATA[Number of additional qualification and qualification location do not match \n অতিরিক্ত যোগ্যতা এবং যোগ্যতা পাঁচ নম্বর মেলে না]]></string>
+    <string-array name="role_fhcp_gov_array">
+        <item>Select from the list</item>
+        <item>@string/doctor</item>
+        <item>@string/nurse </item>
+        <item>@string/lab_technician</item>
+        <item>@string/xray_technician</item>
+        <item>@string/pharmacist</item>
+        <item>@string/physiotherapist</item>
+        <item>@string/other_technical_services</item>
+        <item>@string/ha</item>
+        <item>@string/asha</item>
+    </string-array>
+    <string-array name="role_fhcp_non_gov_array">
+        <item>------ Select from the list ------</item>
+        <item>@string/doctor</item>
+        <item>@string/nurse </item>
+        <item>@string/lab_technician</item>
+        <item>@string/xray_technician</item>
+        <item>@string/pharmacist</item>
+        <item>@string/physiotherapist</item>
+        <item>@string/other_technical_services</item>
+    </string-array>
+
+    <string name="registering_authority_prompt">Registering Authority</string>
+
+    <string-array name="registeringAuthorutyArray">
+        <item>------ Select from the list ------</item>
+        <item>@string/ra01</item>
+        <item>@string/ra02</item>
+        <item>@string/ra03</item>
+        <item>@string/ra04</item>
+        <item>@string/ra05</item>
+        <item>@string/ra06</item>
+        <item>@string/ra07</item>
+        <item>@string/ra08</item>
+        <item>@string/ra09</item>
+        <item>@string/ra10</item>
+        <item>@string/ra11</item>
+        <item>@string/ra12</item>
+        <item>@string/ra13</item>
+        <item>@string/ra14</item>
+        <item>@string/ra88</item>
+    </string-array>
+
+    <string name="qualification_ifhcp_prompt">Qualification</string>
+    <string name="vehicle_prompt"></string>
+
+    <string-array name="vehicle">
+        <item>------ Select from the list ------</item>
+        <item>@string/v01</item>
+        <item>@string/v02</item>
+        <item>@string/v03</item>
+        <item>@string/v04</item>
+        <item>@string/v05</item>
+        <item>@string/v88</item>
+    </string-array>
+	<color name="white">#FDFDFD</color>
+    <color name="grey">#E0E0E0</color>
+    <color name="labelColor">#424242</color>
+    <color name="headingColor">#669900</color>
+    <color name="subHeadingColor">#0099CC</color>
+
+</resources>

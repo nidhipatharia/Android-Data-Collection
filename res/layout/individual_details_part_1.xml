@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/screen"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Individual_Details_Part_1" >
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true" >
+<TextView 
+            android:id="@id/tvHeading"
+            style="@style/Heading"
+            />
+<ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@id/tvHeading">
+    
+    <RelativeLayout
+        style="@style/outerBox"
+        android:layout_centerInParent="true" >
+        
+        
+        <TextView 
+            android:id="@+id/tvName"
+            style="@style/Label"
+            android:text="@string/name"/>
+        <LinearLayout 
+            android:id="@+id/llNames"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tvName"
+            android:layout_alignLeft="@+id/llFatherNames"
+            android:layout_toRightOf="@id/tvName">
+            
+            <EditText 
+                android:id="@+id/etFirstName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:hint="@string/first_name_hint" 
+                android:inputType="textPersonName"
+                />
+           <EditText 
+                android:id="@+id/etMiddletName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent" 
+                android:layout_weight="1" 
+                android:hint="@string/middle_name_hint"
+                android:inputType="textPersonName"
+                />
+           <EditText 
+                android:id="@+id/etLastName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:hint="@string/last_name_hint" 
+                android:inputType="textPersonName"
+                />
+                
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@+id/tvFatherName"
+            style="@style/Label"
+            android:text="@string/father_name"
+            android:layout_below="@id/tvName"/>
+        <LinearLayout 
+            android:id="@+id/llFatherNames"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tvFatherName"
+            android:layout_toRightOf="@id/tvFatherName">
+            
+            <EditText 
+                android:id="@+id/etFatherFirstName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:hint="@string/father_first_name_hint" 
+                android:inputType="textPersonName"
+                />
+           <EditText 
+                android:id="@+id/etFatherMiddletName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent" 
+                android:layout_weight="1" 
+                android:hint="@string/father_middle_name_hint"
+                android:inputType="textPersonName"
+                />
+           <EditText 
+                android:id="@+id/etFatherLastName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:hint="@string/father_last_name_hint" 
+                android:inputType="textPersonName"
+                />
+                
+        </LinearLayout>
+        
+            <TextView 
+            android:id="@+id/tvMotherName"
+            style="@style/Label"
+            android:text="@string/mother_name"
+            android:layout_below="@id/tvFatherName"/>
+        <LinearLayout 
+            android:id="@+id/llMotherNames"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/llFatherNames"
+            android:layout_alignTop="@id/tvMotherName"
+            android:layout_toRightOf="@id/tvMotherName">
+            
+            <EditText 
+                android:id="@+id/etMotherFirstName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:hint="@string/mother_first_name_hint"
+                android:inputType="textPersonName" 
+                />
+           <EditText 
+                android:id="@+id/etMotherMiddletName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent" 
+                android:layout_weight="1" 
+                android:hint="@string/mother_middle_name_hint"
+                android:inputType="textPersonName"
+                />
+           <EditText 
+                android:id="@+id/etMotherLastName"
+                style="@style/EditTextStyle"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:hint="@string/mother_last_name_hint" 
+                android:inputType="textPersonName"
+                />
+                
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@+id/tvDateOfBirth"
+            style="@style/Label"
+            android:text="@string/date_of_birth"
+            android:layout_below="@id/tvMotherName"/>
+        
+        <EditText 
+            android:id="@+id/etDateOfBirth"
+            style="@style/EditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/llNames"
+            android:layout_toRightOf="@id/tvDateOfBirth"
+            android:layout_alignTop="@id/tvDateOfBirth"
+            android:hint="@string/date_of_birth"
+            android:inputType="date"
+            android:editable="false"
+            />
+        <Button 
+            android:id="@+id/btnOpenCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calendar"
+            android:layout_toRightOf="@id/etDateOfBirth"
+            android:layout_alignTop="@id/etDateOfBirth"/>
+        
+        <TextView 
+            android:id="@+id/tvGender"
+            style="@style/Label"
+            android:text="@string/gender"
+            android:layout_below="@id/tvDateOfBirth"/>
+        <RadioGroup
+            android:id="@+id/rgGender"
+            style="@style/RadioGroupStyle"
+            android:layout_toRightOf="@id/tvGender"
+            android:layout_alignLeft="@id/llNames"
+            android:layout_alignBottom="@id/tvGender">
+            
+            <RadioButton 
+                android:id="@+id/radioMale"
+                style="@style/RadioButtonStyle"
+                android:text="@string/male"
+                android:checked="true"
+                />
+            <RadioButton 
+                android:id="@+id/radioFemale"
+                style="@style/RadioButtonStyle"
+                android:text="@string/female"
+                />
+            <RadioButton 
+                android:id="@+id/radioOthers"
+                style="@style/RadioButtonStyle"
+                android:text="@string/others"
+                />
+        </RadioGroup>
+        
+        <Button 
+	    android:id="@+id/btnNext"
+	    style="@style/ButtonStyle"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/tvGender"
+	    android:text="@string/next"/>
+	
+	<TextView
+        style="@style/blankTextView"
+    	android:layout_below="@id/btnNext" />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/screen"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Individual_Details_Part_2" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            style="@style/outerBox"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/tvHeading"
+                style="@style/Heading"
+                android:gravity="center_horizontal"
+                android:text="@string/heading" />
+
+            <TextView
+                android:id="@+id/tvAreaType"
+                style="@style/Label"
+                android:layout_below="@id/tvHeading"
+                android:layout_centerHorizontal="true"
+                android:text="@string/area_type" />
+
+            <RadioGroup
+                android:id="@+id/rgAreaType"
+                style="@style/RadioGroupStyle"
+                android:layout_below="@id/tvAreaType"
+                android:layout_centerHorizontal="true"
+                android:tag="@string/area_type" >
+
+                <RadioButton
+                    android:id="@+id/radioPanchayat"
+                    style="@style/RadioButtonStyleWithBackground"
+                    android:checked="true"
+                    android:text="@string/panchayat" />
+
+                <RadioButton
+                    android:id="@+id/radioMunicipality"
+                    style="@style/RadioButtonStyleWithBackground"
+                    android:text="@string/municipality" />
+
+                <RadioButton
+                    android:id="@+id/radioMunicipalCorporation"
+                    style="@style/RadioButtonStyleWithBackground"
+                    android:text="@string/municipal_corporation" />
+            </RadioGroup>
+
+            <RelativeLayout
+                android:id="@+id/rlAreaType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rgAreaType"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/rlDistrict"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_centerHorizontal="true" >
+
+                    <TextView
+                        android:id="@+id/tvDistrict"
+                        style="@style/Label"
+                        android:text="@string/district" />
+
+                    <Spinner
+                        android:id="@+id/spnDistrict"
+                        style="@style/spinnerDropDownItemStyle"
+                        android:layout_alignBaseline="@id/tvDistrict"
+                        android:layout_toRightOf="@id/tvDistrict" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlPanchayat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/rlDistrict"
+                    android:layout_below="@id/rlDistrict"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@+id/tvBlock"
+                        style="@style/Label"
+                        android:text="@string/block" />
+
+                    <Spinner
+                        android:id="@+id/spnBlock"
+                        style="@style/spinnerDropDownItemStyle"
+                        android:layout_alignBaseline="@id/tvBlock"
+                        android:layout_alignLeft="@+id/spnGramPanchayat"
+                        android:layout_toRightOf="@id/tvBlock" />
+
+                    <TextView
+                        android:id="@+id/tvGramPanchayat"
+                        style="@style/Label"
+                        android:layout_below="@id/tvBlock"
+                        android:text="@string/gram_panchayat" />
+
+                    <Spinner
+                        android:id="@+id/spnGramPanchayat"
+                        style="@style/spinnerDropDownItemStyle"
+                        android:layout_alignBaseline="@id/tvGramPanchayat"
+                        android:layout_below="@id/spnBlock"
+                        android:layout_toRightOf="@id/tvGramPanchayat" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlMunicipality"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rlDistrict"
+                    android:layout_alignLeft="@id/rlDistrict"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:id="@+id/tvMunicipality"
+                        style="@style/Label"
+                        android:text="@string/municipality" />
+
+                    <Spinner
+                        android:id="@+id/spnMunicipality"
+                        style="@style/spinnerDropDownItemStyle"
+                        android:layout_toRightOf="@id/tvMunicipality" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlMunicipalCorporation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/rlDistrict"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:id="@+id/tvMunicipalCorporation"
+                        style="@style/Label"
+                        android:text="@string/municipal_corporation" />
+
+                    <Spinner
+                        android:id="@+id/spnMunicipalCorporation"
+                        style="@style/spinnerDropDownItemStyle"
+                        android:layout_toRightOf="@id/tvMunicipalCorporation"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvPermanentAddress"
+                style="@style/Label"
+                android:layout_below="@id/rlAreaType"
+                android:text="@string/permanent_address" />
+
+            <EditText
+                android:id="@+id/etPermanentAddress"
+                style="@style/EditTextStyle"
+                android:layout_alignLeft="@+id/etCurrentAddress"
+                android:layout_below="@id/rlAreaType"
+                android:layout_toRightOf="@id/tvPermanentAddress"
+                android:hint="@string/permanent_address"
+                android:inputType="textPostalAddress" />
+
+            <TextView
+                android:id="@+id/tvCurrentAddress"
+                style="@style/Label"
+                android:layout_alignTop="@id/etCurrentAddress"
+                android:layout_below="@id/tvPermanentAddress"
+                android:text="@string/current_address" />
+
+            <EditText
+                android:id="@+id/etCurrentAddress"
+                style="@style/EditTextStyle"
+                android:layout_below="@id/etPermanentAddress"
+                android:layout_toRightOf="@id/tvCurrentAddress"
+                android:hint="@string/current_address"
+                android:inputType="textPostalAddress" />
+
+            <Button
+                android:id="@+id/btnNext"
+                style="@style/ButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tvPermanentAddress"
+                android:layout_below="@id/tvCurrentAddress"
+                android:text="@string/next" />
+
+            <TextView
+                style="@style/blankTextView"
+                android:layout_below="@id/btnNext" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
